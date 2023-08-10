@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box modelling Tut</title>
+</head>
+<style>
+
+    :root{
+        --color1-dodgeblue:dodgerblue;
+        --color2-chartreuse: chartreuse;
+        --color3-darkaqua: rgb(148, 241, 241);
+    }
+
+    h1{
+        font-family: 'Borel', cursive;
+        color:white;
+        background-color: var(--color3-darkaqua);
+        text-shadow: 1px 1px black;
+    }
+
+    .simp-box{
+        width: 250px;
+        height: 250px;
+        border: 5px solid #726d6d;
+        border-width: 1px 3px 5px 7px;
+        color: white;
+         }
+
+    .simp-box.one{
+        background-color: var(--color1-dodgeblue);
+    }
+
+    .simp-box.two{
+        background-color: var(--color2-chartreuse);
+        margin-left: 260px;
+    }
+
+    .simp-box h2{
+        font-size: 2rem;
+    }
+
+    .simp-box p{
+        margin-left: 20px;
+    }
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
+
+<body>
+    
+    <h1>Box border demo file</h1>
+    <div class="simp-box one">
+        <h2><span>🚴</span>Cycling</h2>
+        <p>A jorney of a thousand miles starts with a step </p>
+    </div>
+    <div class="simp-box two">
+        <h2><span>🌳</span>Planting</h2>
+        <p>There is a time to Grow and a Time to reap.</p>
+    </div>
+    <div></div>
+</body>
+</html>
